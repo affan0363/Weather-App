@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 176, 207);
+}
+.card{
+    width: (90%, 380px);
+    background: linear-gradient(140deg, #00feba, #5b548a);
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+input{
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+button{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: none;
+}
+.weather{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon{
+    width: 150px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 500;
+
+}
+h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 40px;
+    gap: 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+img{
+    width: 60px;
+    margin-right: 10px;
+    height: 65px;
+
+}
+.humidity{
+    font-size: 30px;
+    margin-top: -6px;
+
+}
+.wind{
+    font-size: 30px;
+    margin-top: -6px;
+}
